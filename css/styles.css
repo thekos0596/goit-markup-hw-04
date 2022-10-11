@@ -4,7 +4,7 @@
     --other-title-color: #ffffff;
     --primary-text-color: #757575;
     --accent-color: #2196f3;
-    --background-color: #2f303a;
+    --background-color: #c4c4c4;
     --button-background-color:#2a86d1;
     --card-background-color: #f5f4fa;
     --font-family: 'Roboto', sans-serif;
@@ -102,6 +102,12 @@ nav a:focus{
 .item-contact a:focus{
     color: var(--accent-color);
 }
+.mail-icon{
+    margin-right: 10px;
+}
+.mail-icon:hover{
+    fill: var(--accent-color);
+}
 
 
 /*Main*/
@@ -112,8 +118,10 @@ nav a:focus{
     max-width: 1600px;
     height: 600px;
     margin: 0 auto;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../images/background-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: var(--background-color);
-    background: url(../images/background-hero.jpg) no-repeat center;
 }
 .hero-container{
     padding: 200px 0px;
