@@ -59,6 +59,9 @@ body {
     /* 2 */
 }
 
+ul, li{
+    list-style-type: none;
+}
 /*
 Grouping content
 ================
